@@ -16,21 +16,7 @@ body{
   background-color: gray;
 }
 
-.inner-wrapper{
-  --ratio: calc(9/16);
-  position: relative;
-  padding-top: calc(var(--ratio) * 100%);
-  border: 3px solid red;
-}
-
 .bg-image{
   display: block;
-  position: absolute;
-  height: 100%;
-  width: 100%;
-  object-fit: cover;
-  object-position: center;
-  top: 0;
-  left: 0;
-  right: 0;
+  object-fit: contain;
 }
